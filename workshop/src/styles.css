@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f6f6f6;
+}
+.titles{
+  font-family: 'Poppins', sans-serif;
+}
+
+.icon{
+  background-color: #0C81E4;
+  color: #f6f6f6;
+  border-radius: 100%;
+  padding: 1em;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+}
+
+.alertify-notifier .ajs-message{
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+  border: none;
+}
+.alertify-notifier .ajs-message.ajs-success{
+  background-color: #5CEEA7;
+}
+
+.alertify-notifier .ajs-message.ajs-warning {
+  background-color: #FFBD20;
+}
+
+.alertify-notifier .ajs-message.ajs-info {
+  background-color: #10A8E5;
+}
+.alertify-notifier .ajs-message.ajs-default {
+  background-color: #4C505F;
+}
+.alertify-notifier .ajs-message.ajs-danger {
+  background-color: #FF3907;
+}
